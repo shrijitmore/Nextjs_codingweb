@@ -1,0 +1,55 @@
+.body{
+    display: flex;
+    justify-content: center;
+    padding-top: 3cm;
+    font-size: 1cm;
+    list-style-type: none;
+}
+.body li{
+    color: rgb(246, 238, 238);
+    padding: 5px;
+    margin-left: 35px;
+    padding: 12px 12px 12px 12px;
+}
+.body li::marker{
+    content: "☛";
+    color: rgb(223, 236, 236);
+}
+.body a li a0:hover,
+.body a li a0:focus,
+.body a li a0:active {
+  text-decoration: underline;
+  color: #9c46da;
+}
+.body a li a1:hover,
+.body a li a1:focus,
+.body a li a1:active {
+  text-decoration: underline;
+  color: #69dde6;
+}
+.body a li a2:hover,
+.body a li a2:focus,
+.body a li a2:active {
+  text-decoration: underline;
+  color: #d7f300;
+}
+.body a li a3:hover,
+.body a li a3:focus,
+.body a li a3:active {
+  text-decoration: underline;
+  color: #1b3451;
+  
+}
+.para{
+    padding-left: 3cm;
+    padding-right: 3cm; 
+    margin-top: 2cm;
+    display: block;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+  }
+.heading{
+  padding-left: 4cm;
+  padding-top: 20px;
+}
+
